@@ -9,10 +9,14 @@ namespace SUT23_Labb3_Poly
     internal class Geometry
     {
         public double _area;
-        public virtual double Area(double area)
+
+        public virtual double Area()
         {
-            _area = area;
-            return area;
+            return _area;
+        }
+        public virtual void PrintInfo()
+        {
+
         }
     }
 }

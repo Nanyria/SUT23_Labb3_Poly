@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            
+            Circle circle = new Circle();
+
+            circle.PrintInfo();
+
+            Console.ReadKey();
         }
     }
 }
