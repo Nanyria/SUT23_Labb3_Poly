@@ -22,7 +22,7 @@ namespace SUT23_Labb3_Poly
         public override void PrintInfo()
         {
             Area();
-            Console.WriteLine("CIRCLE\nCircle radius: {0} \nCircle area ≈ {1}\n", Radius, _area);
+            Console.WriteLine("CIRCLE\nCircle radius = {0} \nCircle area ≈ {1}\n", Radius, _area);
         }
     }
 }
